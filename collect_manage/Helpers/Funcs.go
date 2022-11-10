@@ -145,3 +145,10 @@ func (f Funcs) UrlDecode(str string) string {
 	decodeStr, _ := url.QueryUnescape(str)
 	return decodeStr
 }
+
+/*
+通知信息到企业微信
+*/
+func (f Funcs) NoticeMessageToQYWX(url string, msg string, mobiles []string, msgType string) bool {
+	return true
+}
